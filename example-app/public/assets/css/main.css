@@ -394,7 +394,7 @@ section {
     color: #000;
   }
 
-  .navbar .dropdown ul {
+  .navbar .tenant ul {
     display: block;
     position: absolute;
     left: 28px;
@@ -410,40 +410,40 @@ section {
     border-radius: 4px;
   }
 
-  .navbar .dropdown ul li {
+  .navbar .tenant ul li {
     min-width: 200px;
   }
 
-  .navbar .dropdown ul a {
+  .navbar .tenant ul a {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
   }
 
-  .navbar .dropdown ul a i {
+  .navbar .tenant ul a i {
     font-size: 12px;
   }
 
-  .navbar .dropdown ul a:hover,
-  .navbar .dropdown ul .active:hover,
-  .navbar .dropdown ul li:hover>a {
+  .navbar .tenant ul a:hover,
+  .navbar .tenant ul .active:hover,
+  .navbar .tenant ul li:hover>a {
     color: var(--color-primary);
   }
 
-  .navbar .dropdown:hover>ul {
+  .navbar .tenant:hover>ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
   }
 
-  .navbar .dropdown .dropdown ul {
+  .navbar .tenant .tenant ul {
     top: 0;
     left: calc(100% - 30px);
     visibility: hidden;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .tenant .tenant:hover>ul {
     opacity: 1;
     top: 0;
     left: 100%;
@@ -452,11 +452,11 @@ section {
 }
 
 @media (min-width: 1280px) and (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
+  .navbar .tenant .tenant ul {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .tenant .tenant:hover>ul {
     left: -100%;
   }
 }
@@ -529,8 +529,8 @@ section {
     border-color: var(--color-primary);
   }
 
-  .navbar .dropdown ul,
-  .navbar .dropdown .dropdown ul {
+  .navbar .tenant ul,
+  .navbar .tenat .tenant ul {
     position: static;
     display: none;
     padding: 10px 0;
@@ -539,8 +539,8 @@ section {
     border: 1px solid #eee;
   }
 
-  .navbar .dropdown>.dropdown-active,
-  .navbar .dropdown .dropdown>.dropdown-active {
+  .navbar .tenant>.tenant-active,
+  .navbar .tenant .tenant>.tenant-active {
     display: block;
   }
 
@@ -943,7 +943,7 @@ section {
   margin-bottom: 5px;
 }
 
-.menu .tab-content .menu-item .ingredients {
+.menu .tab-content .menu-item .tenant {
   font-family: var(--font-secondary);
   color: #8d8d9b;
   margin-bottom: 5px;
@@ -1532,9 +1532,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Home Section
 --------------------------------------------------------------*/
-.hero {
+.home {
   width: 100%;
   background-size: cover;
   position: relative;
@@ -1542,7 +1542,7 @@ section {
   padding: 160px 0 60px 0;
 }
 
-.hero h2 {
+.home h2 {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1550,17 +1550,17 @@ section {
   font-family: var(--font-primary);
 }
 
-.hero h2 span {
+.home h2 span {
   color: var(--color-primary);
 }
 
-.hero p {
+.home p {
   color: #4f4f5a;
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-.hero .btn-login {
+.home .btn-login {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1573,12 +1573,12 @@ section {
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }
 
-.hero .btn-login:hover {
+.home .btn-login:hover {
   background: rgba(206, 18, 18, 0.8);
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
 
-.hero .btn-watch-video {
+.home .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -1586,7 +1586,7 @@ section {
   font-weight: 600;
 }
 
-.hero .btn-watch-video i {
+.home .btn-watch-video i {
   color: var(--color-primary);
   font-size: 32px;
   transition: 0.3s;
@@ -1594,21 +1594,21 @@ section {
   margin-right: 8px;
 }
 
-.hero .btn-watch-video:hover {
+.home .btn-watch-video:hover {
   color: var(--color-primary);
 }
 
-.hero .btn-watch-video:hover i {
+.home .btn-watch-video:hover i {
   color: rgba(206, 18, 18, 0.8);
 }
 
 @media (max-width: 640px) {
-  .hero h2 {
+  .home h2 {
     font-size: 36px;
   }
 
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
+  .home .btn-get-started,
+  .home .btn-watch-video {
     font-size: 14px;
   }
 }
@@ -1718,3 +1718,4 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
