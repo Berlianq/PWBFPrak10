@@ -44,15 +44,15 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Favorite Menu</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Tenant</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="tenant"><a href="#"><span>Tenant</span> <i class="bi bi-chevron-down tenant-indicator"></i></a>
             <ul>
-              <li><a href="#">Tenant 1</a></li>
-              <li><a href="#">Tenant 2</a></li>
-              <li><a href="#">Tenant 3</a></li>
+              <li><a href="#tenant1">Tenant 1</a></li>
+              <li><a href="#tenant2">Tenant 2</a></li>
+              <li><a href="#tenant3">Tenant 3</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -66,13 +66,13 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center section-bg">
+  <!-- ======= Home Section ======= -->
+  <section id="home" class="home d-flex align-items-center section-bg">
     <div class="container">
       <div class="row justify-content-between gy-5">
         <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
           <h2 data-aos="fade-up">WELCOME TO <br>"Eatme" E-CANTEEN</h2>
-          <p data-aos="fade-up" data-aos-delay="100">"eatme" e-canteen hadir membawa inovasi untuk memudahkan anda </p>
+          <p data-aos="fade-up" data-aos-delay="100">"eatme" e-canteen adalah website  untuk mempermudah dalam kegiatan pemesanan makanan dan minuman. Enjoyy!!! </p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
             <a href="#login" class="btn-login">Login</a>
             <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
@@ -83,7 +83,7 @@
         </div>
       </div>
     </div>
-  </section><!-- End Hero Section -->
+  </section><!-- End Home Section -->
 
   <main id="main">
 
@@ -97,11 +97,7 @@
         </div>
 
         <div class="row gy-4">
-          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
-            <div class="call-us position-absolute">
-              <h4>Book a Table</h4>
-              <p>+1 5589 55488 55</p>
-            </div>
+          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/canteen.jpg) ;" data-aos="fade-up" data-aos-delay="150">
           </div>
           <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
             <div class="content ps-0 ps-lg-5">
@@ -242,8 +238,8 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
+                <h4>Soto</h4>
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -254,7 +250,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Aut Luia</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -265,7 +261,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Est Eligendi</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -276,7 +272,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -287,7 +283,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -298,7 +294,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -321,7 +317,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Magnam Tiste</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -332,7 +328,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Aut Luia</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -343,7 +339,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Est Eligendi</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -354,7 +350,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -365,7 +361,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -376,7 +372,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -399,7 +395,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Magnam Tiste</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -410,7 +406,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Aut Luia</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -421,7 +417,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Est Eligendi</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -432,7 +428,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -443,7 +439,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -454,7 +450,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -477,7 +473,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Magnam Tiste</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -488,7 +484,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Aut Luia</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -499,7 +495,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Est Eligendi</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -510,7 +506,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -521,7 +517,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -532,7 +528,7 @@
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
+                <p class="tenant">
                   Lorem, deren, trataro, filede, nerada
                 </p>
                 <p class="price">
@@ -608,8 +604,8 @@
           <div class="text-center text-lg-start mt-4 pt-2">
             <button type="button" class="btn btn-primary btn-lg"
               style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
-                class="link-danger">Register</a></p>
+            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/register"
+                class="link-danger" >Register</a></p>
           </div>
 
         </form>
@@ -637,61 +633,11 @@
     <!-- Right -->
   </div>
 </section>
-<!--
-        <div class="section-header">
-          <h2>Book A Table</h2>
-          <p>Book <span>Your Stay</span> With Us</p>
-        </div>
-
-        <div class="row g-0">
-
-          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
-
-          <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
-            <form action="forms/login.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-              <div class="row gy-4">
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                  <div class="validate"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Book a Table</button></div>
-            </form>
-          </div><!-- End Reservation Form -->
 
         </div>
 
       </div>
-    </section><!-- End Book A Table Section -->
+    </section><!-- End Login Section -->
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery section-bg">
