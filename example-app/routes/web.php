@@ -13,18 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/menu', function () {
-    return view('menu');
-});
-
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::get('/register', function () {
-    return view('register');
-});
+Route::get('/', [\App\Http\Controllers\HomeController::class,'index'])->name('homepage');
+Route::get('/shop', [\App\Http\Controllers\ShopController::class, 'index'])->name('shop.index');
