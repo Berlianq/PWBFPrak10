@@ -13,5 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
 Route::get('/', [\App\Http\Controllers\HomeController::class,'index'])->name('homepage');
 Route::get('/shop', [\App\Http\Controllers\ShopController::class, 'index'])->name('shop.index');
+Route::get('/product{slog}', [\App\Http\Controllers\ShopController::class, 'show'])->name('product.show');
+
+Route::get('/admin', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+
