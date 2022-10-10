@@ -7,13 +7,7 @@
     <meta name="keywords" content="E-canteen, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< HEAD
     <title>E-canteen | Template</title>
-    
-=======
-    <title>E-canteen</title>
-
->>>>>>> 771846ac7a36a88590ffcee3eb60082ecadabf09
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
     
