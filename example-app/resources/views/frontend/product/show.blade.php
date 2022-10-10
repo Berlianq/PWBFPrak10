@@ -7,11 +7,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Vegetable’s Package</h2>
+                        <h2>Rendang</h2>
                         <div class="breadcrumb__option">
                             <a href="./index.html">Home</a>
                             <a href="./index.html">Vegetables</a>
-                            <span>Vegetable’s Package</span>
+                            <span>Rendang</span>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="product__details__text">
-                        <h3>Vetgetable’s Package</h3>
+                        <h3>Rendang</h3>
                         <div class="product__details__rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -53,10 +53,10 @@
                             <i class="fa fa-star-half-o"></i>
                             <span>(18 reviews)</span>
                         </div>
-                        <div class="product__details__price">$50.00</div>
-                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam
-                            vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet
-                            quam vehicula elementum sed sit amet dui. Proin eget tortor risus.</p>
+                        <div class="product__details__price">16.000</div>
+                        <p>Rendang atau randang dalam bahasa Minangkabau adalah Masakan Minangkabau yang berbahan dasar daging 
+                            yang berasal dari Sumatera Barat, Indonesia. Masakan ini dihasilkan dari proses memasak 
+                            suhu rendah dalam waktu lama dengan menggunakan aneka rempah-rempah dan santan</p>
                         <div class="product__details__quantity">
                             <div class="quantity">
                                 <div class="pro-qty">

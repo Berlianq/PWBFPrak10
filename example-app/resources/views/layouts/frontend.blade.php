@@ -11,7 +11,7 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
     
-    <link href="frontend/img/logo.png" rel="icon">
+    <link href="{{ asset('frontend/img/logo.png') }}" rel="icon">
     
     <!-- Css Styles -->
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}" type="text/css">
@@ -56,11 +56,11 @@
             <ul>
                 <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./shop">Shop</a></li>
-                <li><a href="#">Pages</a>
+                <li><a href="#">Tenan</a>
                     <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Shop Details</a></li>
-                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                        <li><a href="./checkout.html">Check Out</a></li>
+                        <li><a href="./shop-details.html">Tenan 1</a></li>
+                        <li><a href="./shoping-cart.html">Tenan 2</a></li>
+                        <li><a href="./checkout.html">Tenan 3</a></li>
                         <li><a href="./blog-details.html">Blog Details</a></li>
                     </ul>
                 </li>
@@ -117,11 +117,11 @@
                         <ul>
                             <li class="active"><a href="./index.html">Home</a></li>
                             <li><a href="./shop">Shop</a></li>
-                            <li><a href="#">Pages</a>
+                            <li><a href="#">Tenan</a>
                                 <ul class="header__menu__dropdown">
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
+                                    <li><a href="./shop-details.html">Tenan 1</a></li>
+                                    <li><a href="./shoping-cart.html">Tenan 2</a></li>
+                                    <li><a href="./checkout.html">Tenan 3</a></li>
                                     <li><a href="./blog-details.html">Blog Details</a></li>
                                 </ul>
                             </li>
@@ -155,10 +155,10 @@
                     <div class="hero__search">
                     <div class="hero__search__form">
                         <form action="#">
-                        <input type="text" placeholder="What do yo u need?" />
-                        <button type="submit" class="site-btn">SEARCH</button>
+                        <input type="text" placeholder="Mau makan apa ?" />
+                        <button type="submit" class="site-btn">Cari</button>
                         </form>
-                    </div>
+                    <!-- </div>
                     <div class="hero__search__phone">
                         <div class="hero__search__phone__icon">
                             <i class="fa fa-phone"></i>
@@ -167,7 +167,7 @@
                             <h5>+65 11.188.888</h5>
                             <span>support 24/7 time</span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>     
             </div>
         </div>
@@ -191,8 +191,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Soto</h6>
+                                        <span>15.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -200,8 +200,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Rawon</h6>
+                                        <span>12.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -209,8 +209,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Sate</h6>
+                                        <span>14.000</span>
                                     </div>
                                 </a>
                             </div>
@@ -220,8 +220,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Kepiting</h6>
+                                        <span>30.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -229,8 +229,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Rendang</h6>
+                                        <span>16.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -238,8 +238,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Sop</h6>
+                                        <span>8.000</span>
                                     </div>
                                 </a>
                             </div>
@@ -256,8 +256,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Bakso</h6>
+                                        <span>10.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -265,8 +265,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Mie ayam</h6>
+                                        <span>10.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -274,8 +274,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Sate</h6>
+                                        <span>14.000</span>
                                     </div>
                                 </a>
                             </div>
@@ -285,8 +285,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Penyetan</h6>
+                                        <span>15.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -294,17 +294,17 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Rendang</h6>
+                                        <span>16.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg') }}" alt="">
+                                        <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Kepiting</h6>
+                                        <span>30.000</span>
                                     </div>
                                 </a>
                             </div>
@@ -321,8 +321,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Sate</h6>
+                                        <span>14.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -330,8 +330,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Rawon</h6>
+                                        <span>12.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -339,8 +339,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Ayam bakar</h6>
+                                        <span>16.000</span>
                                     </div>
                                 </a>
                             </div>
@@ -350,8 +350,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Bakso</h6>
+                                        <span>10.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -359,8 +359,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Pizza</h6>
+                                        <span>12.000</span>
                                     </div>
                                 </a>
                                 <a href="#" class="latest-product__item">
@@ -368,8 +368,8 @@
                                         <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
-                                        <h6>Crab Pool Security</h6>
-                                        <span>$30.00</span>
+                                        <h6>Burger</h6>
+                                        <span>13.000</span>
                                     </div>
                                 </a>
                             </div>
@@ -382,7 +382,7 @@
     <!-- Latest Product Section End -->
 
     <!-- Blog Section Begin -->
-    <section class="from-blog spad">
+    <!-- <section class="from-blog spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -439,7 +439,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->

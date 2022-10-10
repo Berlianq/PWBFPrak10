@@ -9,19 +9,19 @@
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="{{ asset('frontend/img/categories/cat-1.jpg') }}">
-                            <h5><a href="#">Fresh Fruit</a></h5>
+                            <h5><a href="#">Tenan 1</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="{{ asset('frontend/img/categories/cat-2.jpg') }}">
-                            <h5><a href="#">Dried Fruit</a></h5>
+                            <h5><a href="#">Tenan 2</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="{{ asset('frontend/img/categories/cat-3.jpg') }}">
-                            <h5><a href="#">Vegetables</a></h5>
+                            <h5><a href="#">Tenan 3</a></h5>
                         </div>
-                    </div>
+                    <!-- </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="{{ asset('frontend/img/categories/cat-4.jpg') }}">
                             <h5><a href="#">drink fruits</a></h5>
@@ -31,7 +31,7 @@
                         <div class="categories__item set-bg" data-setbg="{{ asset('frontend/img/categories/cat-5.jpg') }}">
                             <h5><a href="#">drink fruits</a></h5>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -44,15 +44,15 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>Featured Product</h2>
+                        <h2>Menu Makanan</h2>
                     </div>
                     <div class="featured__controls">
                         <ul>
                             <li class="active" data-filter="*">All</li>
-                            <li data-filter=".oranges">Oranges</li>
-                            <li data-filter=".fresh-meat">Fresh Meat</li>
-                            <li data-filter=".vegetables">Vegetables</li>
-                            <li data-filter=".fastfood">Fastfood</li>
+                            <li data-filter=".oranges">Tenan 1</li>
+                            <li data-filter=".fresh-meat">Tenan 2</li>
+                            <li data-filter=".vegetables">Tenan 3</li>
+                            <!-- <li data-filter=".fastfood">Fastfood</li> -->
                         </ul>
                     </div>
                 </div>
@@ -68,8 +68,9 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Bakso</a></h6>
+                            <h6><a href="#">Tenan 2</a></h6>
+                            <h5>10.000</h5>
                         </div>
                     </div>
                 </div>
@@ -83,8 +84,9 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Mie ayam</a></h6>
+                            <h6><a href="#">Tenan 2</a></h6>
+                            <h5>10.000</h5>
                         </div>
                     </div>
                 </div>
@@ -98,8 +100,9 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Rendang</a></h6>
+                            <h6><a href="#">Tenan 3</a></h6>
+                            <h5>16.000</h5>
                         </div>
                     </div>
                 </div>
@@ -113,8 +116,9 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Penyetan</a></h6>
+                            <h6><a href="#">Tenan 1</a></h6>
+                            <h5>15.000</h5>
                         </div>
                     </div>
                 </div>
@@ -128,8 +132,9 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Ayam bakar</a></h6>
+                            <h6><a href="#">Tenan 1</a></h6>
+                            <h5>16.000</h5>
                         </div>
                     </div>
                 </div>
@@ -143,8 +148,9 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Pizza</a></h6>
+                            <h6><a href="#">Tenan 3</a></h6>
+                            <h5>12.000</h5>
                         </div>
                     </div>
                 </div>
@@ -158,8 +164,9 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Rawon</a></h6>
+                            <h6><a href="#">Tenan 3</a></h6>
+                            <h5>12.000</h5>
                         </div>
                     </div>
                 </div>
@@ -173,8 +180,9 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Crab Pool Security</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Burger</a></h6>
+                            <h6><a href="#">Tenan 3</a></h6>
+                            <h5>13.000</h5>
                         </div>
                     </div>
                 </div>
@@ -189,12 +197,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner__pic">
-                        <img src="{{ asset('frontend/img/banner/banner-1.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/img/banner/banner-1.jpg') }}" width="400"alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner__pic">
-                        <img src="{{ asset('frontend/img/banner/banner-2.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/img/banner/banner-2.jpg') }}" width="400"alt="">
                     </div>
                 </div>
             </div>

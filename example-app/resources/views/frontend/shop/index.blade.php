@@ -145,7 +145,7 @@
                                                 <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
-                                                <h6>Crab Pool Security</h6>
+                                                <h6>ASDFGHJK</h6>
                                                 <span>$30.00</span>
                                             </div>
                                         </a>
@@ -171,7 +171,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/lp-2.jpg') }}" alt="">
+                                                <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6>Crab Pool Security</h6>
