@@ -7,8 +7,13 @@
     <meta name="keywords" content="E-canteen, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
     <title>E-canteen | Template</title>
     
+=======
+    <title>E-canteen</title>
+
+>>>>>>> 771846ac7a36a88590ffcee3eb60082ecadabf09
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
     
@@ -447,7 +452,7 @@
     <footer class="footer spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
                             <a href="./index.html"><img src="{{ asset('frontend/img/logo.png') }}" alt=""></a>
