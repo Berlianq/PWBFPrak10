@@ -224,7 +224,7 @@
                                         <span>30.000</span>
                                     </div>
                                 </a>
-                                <a href="#" class="latest-product__item">
+                                <a href="/product" class="latest-product__item">
                                     <div class="latest-product__item__pic">
                                         <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
                                     </div>
