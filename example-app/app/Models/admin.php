@@ -5,9 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class menu extends Model
+class admin extends Model
 {
     use HasFactory;
-    protected $table='menu';
-    protected $hidden=['id'];
 }

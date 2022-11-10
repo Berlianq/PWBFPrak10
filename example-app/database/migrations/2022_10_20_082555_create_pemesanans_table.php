@@ -15,7 +15,6 @@ class CreatePemesanansTable extends Migration
     {
         Schema::create('pemesanans', function (Blueprint $table) {
             $table->id(); 
-            $table->foreignid('user_id'); 
             $table->date('tgl_pemesanan');
             $table->boolean('status_pemesanan');
             $table->date('tanggal_beli');

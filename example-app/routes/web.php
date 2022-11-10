@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\MenuController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,5 +26,7 @@ Route::resource('/cart', \App\Http\Controllers\CartController::class);
 Route::get('/order/checkout', [\App\Http\Controllers\OrderController::class, 'process'])->name('checkout.process');
 Route::get('/product{slog}', [\App\Http\Controllers\ShopController::class, 'show'])->name('product.show');
 
-Route::get('/admin', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+Route::get('/admin', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/daftar-menu', [DashboardController::class, 'daftarmenu']);
 
+Route::resource('menu', MenuController::class);
