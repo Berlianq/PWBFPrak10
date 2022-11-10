@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Menu;
-use Illuminate\Http\Request;
-class MenuController extends Controller
+use App\Models\detail_pemesanan;
+use App\Http\Requests\Storedetail_pemesananRequest;
+use App\Http\Requests\Updatedetail_pemesananRequest;
+
+class DetailPemesananController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,10 +15,7 @@ class MenuController extends Controller
      */
     public function index()
     {
-        return view('menu.index',[
-            "menu"=>Menu::all()
-            
-        ]);
+        //
     }
 
     /**
@@ -26,39 +25,27 @@ class MenuController extends Controller
      */
     public function create()
     {
-        return view('menu.create');
+        //
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Http\Requests\Storedetail_pemesananRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Storedetail_pemesananRequest $request)
     {
-        $request->validate([
-            'nama_menu'=>'required',
-            'stok_menu'=>'required',
-            'harga'=>'required'
-        ]);
-
-        $menu=new Menu;
-        $menu->nama_menu=$request->nama_menu;
-        $menu->stok_menu=$request->stok_menu;
-        $menu->harga=$request->harga;
-        $menu->save();
-        
-        return redirect('menu');
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\detail_pemesanan  $detail_pemesanan
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(detail_pemesanan $detail_pemesanan)
     {
         //
     }
@@ -66,10 +53,10 @@ class MenuController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\detail_pemesanan  $detail_pemesanan
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(detail_pemesanan $detail_pemesanan)
     {
         //
     }
@@ -77,11 +64,11 @@ class MenuController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Http\Requests\Updatedetail_pemesananRequest  $request
+     * @param  \App\Models\detail_pemesanan  $detail_pemesanan
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Updatedetail_pemesananRequest $request, detail_pemesanan $detail_pemesanan)
     {
         //
     }
@@ -89,10 +76,10 @@ class MenuController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\detail_pemesanan  $detail_pemesanan
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(detail_pemesanan $detail_pemesanan)
     {
         //
     }

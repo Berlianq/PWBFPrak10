@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Menu;
-use Illuminate\Http\Request;
-class MenuController extends Controller
+use App\Models\pembayaran;
+use App\Http\Requests\StorepembayaranRequest;
+use App\Http\Requests\UpdatepembayaranRequest;
+
+class PembayaranController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,10 +15,7 @@ class MenuController extends Controller
      */
     public function index()
     {
-        return view('menu.index',[
-            "menu"=>Menu::all()
-            
-        ]);
+        //
     }
 
     /**
@@ -26,39 +25,27 @@ class MenuController extends Controller
      */
     public function create()
     {
-        return view('menu.create');
+        //
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Http\Requests\StorepembayaranRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StorepembayaranRequest $request)
     {
-        $request->validate([
-            'nama_menu'=>'required',
-            'stok_menu'=>'required',
-            'harga'=>'required'
-        ]);
-
-        $menu=new Menu;
-        $menu->nama_menu=$request->nama_menu;
-        $menu->stok_menu=$request->stok_menu;
-        $menu->harga=$request->harga;
-        $menu->save();
-        
-        return redirect('menu');
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\pembayaran  $pembayaran
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(pembayaran $pembayaran)
     {
         //
     }
@@ -66,10 +53,10 @@ class MenuController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\pembayaran  $pembayaran
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(pembayaran $pembayaran)
     {
         //
     }
@@ -77,11 +64,11 @@ class MenuController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Http\Requests\UpdatepembayaranRequest  $request
+     * @param  \App\Models\pembayaran  $pembayaran
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UpdatepembayaranRequest $request, pembayaran $pembayaran)
     {
         //
     }
@@ -89,10 +76,10 @@ class MenuController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\pembayaran  $pembayaran
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(pembayaran $pembayaran)
     {
         //
     }
