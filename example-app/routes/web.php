@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [\App\Http\Controllers\HomeController::class,'index'])->name('homepage');
+Route::get('/home', [\App\Http\Controllers\HomeController::class,'index'])->name('homepage');
 Route::get('/shop', [\App\Http\Controllers\ShopController::class, 'index'])->name('shop.index');
 
 Route::get('/product', [\App\Http\Controllers\ProductController::class, 'show'])->name('product.show');
@@ -27,3 +28,4 @@ Route::get('/product{slog}', [\App\Http\Controllers\ShopController::class, 'show
 
 Route::get('/admin', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
+Route::get('/tenan', [\App\Http\Controllers\Admin\TenanController::class, 'index'])->name('tenan');

@@ -49,16 +49,16 @@
                     <div class="featured__controls">
                         <ul>
                             <li class="active" data-filter="*">All</li>
-                            <li data-filter=".oranges">Tenan 1</li>
-                            <li data-filter=".fresh-meat">Tenan 2</li>
-                            <li data-filter=".vegetables">Tenan 3</li>
+                            <li data-filter=".tenan1">Tenan 1</li>
+                            <li data-filter=".tenan2">Tenan 2</li>
+                            <li data-filter=".tenan3">Tenan 3</li>
                             <!-- <li data-filter=".fastfood">Fastfood</li> -->
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row featured__filter">
-                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix tenan2">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="{{ asset('frontend/img/featured/feature-1.jpg') }}">
                             <ul class="featured__item__pic__hover">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix tenan2">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="{{ asset('frontend/img/featured/feature-2.jpg') }}">
                             <ul class="featured__item__pic__hover">
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix tenan3">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="{{ asset('frontend/img/featured/feature-3.jpg') }}">
                             <ul class="featured__item__pic__hover">
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix tenan1">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="{{ asset('frontend/img/featured/feature-4.jpg') }}">
                             <ul class="featured__item__pic__hover">
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix tenan1">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="{{ asset('frontend/img/featured/feature-5.jpg') }}">
                             <ul class="featured__item__pic__hover">
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix tenan3">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="{{ asset('frontend/img/featured/feature-6.jpg') }}">
                             <ul class="featured__item__pic__hover">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix tenan3">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="{{ asset('frontend/img/featured/feature-7.jpg') }}">
                             <ul class="featured__item__pic__hover">
@@ -170,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix tenan3">
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="{{ asset('frontend/img/featured/feature-8.jpg') }}">
                             <ul class="featured__item__pic__hover">

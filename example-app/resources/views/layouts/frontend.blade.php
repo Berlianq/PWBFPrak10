@@ -7,7 +7,7 @@
     <meta name="keywords" content="E-canteen, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>E-canteen | Template</title>
+    <title>E-canteen</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
     
@@ -36,13 +36,6 @@
         <div class="humberger__menu__logo">
             <a href="#"><img src="{{ asset('frontend/img/logo.png') }}" alt=""></a>
         </div>
-        <div class="humberger__menu__cart">
-            <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-            </ul>
-            <div class="header__cart__price">item: <span>$150.00</span></div>
-        </div>
         <div class="humberger__menu__widget">
             <div class="header__top__right__language">
             <span class="fa fa-user"></span>
@@ -54,14 +47,13 @@
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
+                <li class="active"><a href="./home">Home</a></li>
                 <li><a href="./shop">Shop</a></li>
                 <li><a href="#">Tenan</a>
                     <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Tenan 1</a></li>
-                        <li><a href="./shoping-cart.html">Tenan 2</a></li>
-                        <li><a href="./checkout.html">Tenan 3</a></li>
-                        <li><a href="./blog-details.html">Blog Details</a></li>
+                        <li><a href="./shop">Tenan 1</a></li>
+                        <li><a href="./shop">Tenan 2</a></li>
+                        <li><a href="./shop">Tenan 3</a></li>
                     </ul>
                 </li>
                 <li><a href="./blog.html">Blog</a></li>
@@ -84,12 +76,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <div class="header__top__left">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                                <li>Free Shipping for all Order of $99</li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
@@ -109,35 +95,25 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img width="200" src="{{ asset('frontend/img/logo.png') }}" alt=""></a>
+                        <a href="./home"><img width="200" src="{{ asset('frontend/img/logo.png') }}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="./home">Home</a></li>
                             <li><a href="./shop">Shop</a></li>
                             <li><a href="#">Tenan</a>
                                 <ul class="header__menu__dropdown">
-                                    <li><a href="./shop-details.html">Tenan 1</a></li>
-                                    <li><a href="./shoping-cart.html">Tenan 2</a></li>
-                                    <li><a href="./checkout.html">Tenan 3</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><a href="./shop">Tenan 1</a></li>
+                                    <li><a href="./shop">Tenan 2</a></li>
+                                    <li><a href="./shop">Tenan 3</a></li>
                                 </ul>
                             </li>
                             <li><a href="./blog.html">Blog</a></li>
                             <li><a href="./contact.html">Contact</a></li>
                         </ul>
                     </nav>
-                </div>
-                <div class="col-lg-3">
-                    <div class="header__cart">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                        </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
-                    </div>
                 </div>
             </div>
             <div class="humberger__open">
@@ -177,271 +153,6 @@
 
     @yield('content')
 
-    <!-- Latest Product Section Begin -->
-    <section class="latest-product spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Latest Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Soto</h6>
-                                        <span>15.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Rawon</h6>
-                                        <span>12.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Sate</h6>
-                                        <span>14.000</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Kepiting</h6>
-                                        <span>30.000</span>
-                                    </div>
-                                </a>
-                                <a href="/product" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Rendang</h6>
-                                        <span>16.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Sop</h6>
-                                        <span>8.000</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Top Rated Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Bakso</h6>
-                                        <span>10.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Mie ayam</h6>
-                                        <span>10.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Sate</h6>
-                                        <span>14.000</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Penyetan</h6>
-                                        <span>15.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Rendang</h6>
-                                        <span>16.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Kepiting</h6>
-                                        <span>30.000</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Review Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Sate</h6>
-                                        <span>14.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Rawon</h6>
-                                        <span>12.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Ayam bakar</h6>
-                                        <span>16.000</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Bakso</h6>
-                                        <span>10.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-2.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Pizza</h6>
-                                        <span>12.000</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="{{ asset('frontend/img/latest-product/lp-3.jpg') }}" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Burger</h6>
-                                        <span>13.000</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Latest Product Section End -->
-
-    <!-- Blog Section Begin -->
-    <!-- <section class="from-blog spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title from-blog__title">
-                        <h2>From The Blog</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="{{ asset('frontend/img/blog/blog-1.jpg') }}" alt="">
-                        </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">Cooking tips make cooking simple</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="{{ asset('frontend/img/blog/blog-2.jpg') }}" alt="">
-                        </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="{{ asset('frontend/img/blog/blog-3.jpg') }}" alt="">
-                        </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">Visit the clean farm in the US</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Blog Section End -->
-
     <!-- Footer Section Begin -->
     <footer class="footer spad">
         <div class="container">
@@ -449,7 +160,7 @@
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="{{ asset('frontend/img/logo.png') }}" alt=""></a>
+                            <a href="./home"><img src="{{ asset('frontend/img/logo.png') }}" alt=""></a>
                         </div>
                         <ul>
                             <li>Address: 60-49 Road 11378 New York</li>
